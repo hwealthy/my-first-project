@@ -1,27 +1,31 @@
 package LAP3;
 
-public abstract class Triangle {
+public class Triangle extends Shape {
 	private int base;
 	private int height;
 	
-	public int getBase() {
-		return base;
+	public Triangle() {
+		super();
 	}
-	public void setBase(int base) {
+
+	public Triangle(int base, int height) {
+		super();
 		this.base = base;
-	}
-	public int getHeight() {
-		return height;
-	}
-	public void setHeight(int height) {
 		this.height = height;
 	}
+	
+	public Triangle(String color, int base, int height)	{
+		super(color);
+		this.base = base;
+		this.height = height;
+	}
+
 	@Override
 	public String toString() {
 		return "Triangle [base=" + base + ", height=" + height + "]";
 	}
+	
 	public double Area()	{
 		return 0.5 * base * height;
 	}
-	
 }
