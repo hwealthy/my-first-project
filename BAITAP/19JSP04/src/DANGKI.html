@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+table, th,td {
+padding: 10px;
+}
+#ct {
+  padding-left:150px;
+}
+
+</style>
+  <title>Đăng kí</title>
+  <h2 text align="center">ĐĂNG KÍ</h2>
+  <div id="formdangki">
+    <form action="#">
+  <table align="center" >
+    <td id="ct">
+        <input type="radio" name="donvi" id="donvitc" value="Cá nhân"/>
+        <label for="donvitc">Cá nhân</label>
+        <input type="radio" name="donvi" id="donvitc" value="Công ty/Tổ chức/>
+        <label for="donvitc">Công ty/Tô chức</label>
+      </td>
+    <tr>
+      <td class="hoten"><label for="register_name" class="label">Họ và tên</label></td>
+      <td><input type="text" name="name" value="" id="register_name" style="width:160px"/></td>
+    </tr>
+    <tr>
+      <td class="sdt"><label for="register_phone" class="label">Số điện thoại</label></td>
+      <td><input type="text" name="sdt" value="" id="register_phone" style="width:160px"/></td>
+    </tr>
+    <tr>
+      <td class="tdLabel"><label for="birthday" class="label">Ngày sinh</label></td>
+      <td><input type="date" name="birthday" value="" id="birthday" style="width:160px"/></td>
+    </tr>
+    <tr>
+      <td class="tdLabel"><label for="address" class="label">Địa chỉ</label></td>
+      <td><input type="address" name="address" id="address" style="width:160px"/>
+        <td class="tdLabel"><label for="city" class="label">Thành phố</label></td>
+        <td>
+          <select name="city" id="city" style="width:160px">
+            <option value="hcm">Hồ Chí Minh</option>
+            <option value="danang">Đà Nẵng</option>
+            <option value="hanoi">Hà Nội</option>           
+          </select>
+        </td>
+      </td>       
+    </tr>
+          <td class="tdLabel"><label for="quanhuyen" class="label">Quận/Huyện</label></td>
+        <td>
+          <select name="quanhuyen" id="quanhuyen" style="width:160px">
+            <option value="hcm">Quận Thủ Đức</option>
+            <option value="hcm">Quận Gò Vấp</option>           
+          </select>
+        </td>
+    <tr>
+      <td class="tdLabel"><label for="gender" class="label">Giới Tính</label></td>
+      <td>
+        <input type="radio" name="gender" id="nu" value="nu"/>
+        <label for="nu">Nữ</label>
+        <input type="radio" name="gender" id="nam" value="nam"/>
+        <label for="nam">Nam</label>
+      </td>
+    </tr>
+    <tr>
+      <td class="tdLabel"><label for="register_email" class="label">Email:</label></td>
+      <td><input type="email" name="email" value="" id="register_email" style="width:160px"/></td>
+    </tr>
+    <tr>
+      <td class="tdLabel"><label for="password" class="label">Mật khẩu</label></td>
+      <td><input type="password" name="psw"style="width:160px"></td>
+      
+    </td>
+    </tr>
+    <tr>
+      <td class="tdLabel"><label for="password" class="label">Nhập lại mật khẩu</label></td>
+      <td><input type="password" name="psw"style="width:160px"></td>
+      
+    </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <div align="center"><input type="submit" id="register_0" value="Đăng kí"/>
+        </div>
+      </td>
+    </tr>
+  </table>
+</form>
+  </div>
+</head>
+<body>
+
+</body>
+</html>
